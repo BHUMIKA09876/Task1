@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas & Soul</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+</head>
+<body>
+  <div class="conatainer">
+    <nav>
+        
+        <div class="logo">
+            <img src="logo.png" alt="Canvas & Soul Logo" />
+            <h2>Canvas & Soul</h2>
+        </div>
+
+        <div class="burger" onclick="toggleMenu()">☰</div> 
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="home">
+      <h1>Unleash Your Creativity</h1>
+      <p>Welcome to Canvas & Soul - where art meets soul.</p>
+    </section>
+
+    <section id="about">
+      <h2><i>About Us</i></h2>
+      <p>Canvas & Soul is a creative space for artists, learners, and admirers. We offer expert-led art courses and also feature monthly exhibitions showcasing emerging talent.</p>
+      <p>Our mission is to inspire creativity and foster a community of art enthusiasts.</p>
+      <p>Join us in our journey to explore the world of art!</p>
+    </section>
+
+    <section id="services">
+      <h1>Our Services</h1>
+      <table class="table">
+        <tbody>
+        <tr rowspan="2">
+          <td><img class="picture" src="art exhibition.jpeg" alt="Art Exhibitions" ></td>
+          <td>
+            <h2>🖼️ Monthly Art Exhibitions</h2>
+            <p>Showcasing original work by emerging and professional artists every month.</p><br>
+          
+            <h2>🖌️ Custom Art Commissions</h2>
+            <p>Portraits, abstract pieces, and spiritual art designed just for you by Canvas & Soul artists.</p>
+          </td>
+        </tr>
+    
+        <tr rowspan="2">
+          <td>
+            <h2>🌿 Art Therapy Sessions</h2>
+            <p>Gentle, healing art sessions led by certified therapists to help you relax and reconnect.</p>
+            <br>
+            <h2>🏡 Studio Co-Art Space</h2>
+            <p>Rent our creative space for your own projects, collaborations, or exhibitions.</p>
+          </td>
+          <td>
+            <img class="picture" src="art therapy.jpeg" alt="Art Therapy">
+          </td>
+        </tr>
+        <tr rowspan="2">
+          <td><img class="picture" src="art retreat.jpeg" alt=""></td>
+          <td>
+            <h2>🎨 Weekend Art Retreats</h2>
+            <p>Half- or full-day art experiences blending nature, meditation, and painting.</p>
+            <br>
+            <h2>🛍️ Boutique Art Store</h2>
+            <p>Get handcrafted supplies, curated kits, and branded gifts from our studio shop.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+  <section id="courses" >
+      <h2>Art Courses</h2>
+      <p>Explore our diverse range of art courses designed for all skill levels. Whether you're a beginner or an experienced artist, we have something for everyone!</p>
+    <div class="course-item">
+      <button class="course-title"><img src="draw&sketch.jpeg" alt="Drawing & Sketching">🎨 Drawing & Sketching</button>
+      <div class="course-details">
+        
+        <p>Master fundamentals like anatomy, shading, and perspective using pencils and charcoal.</p>
+        <ul>
+          <li><strong>Duration:</strong> 6 weeks</li>
+          <li><strong>Age Group:</strong> 15+ years</li>
+          <li><strong>Fee:</strong> ₹2,999</li>
+        </ul>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+    </div> 
+    
+      <div class="course-item">
+      <button class="course-title"><img src="watercolor.jpeg" alt="Watercolor Wonders">🖌️ Watercolor Wonders</button>
+      <div class="course-details">
+        <p>Explore the magic of watercolors with floral, landscape, and expressive techniques.</p>
+        <ul>
+          <li><strong>Duration:</strong> 4 weeks</li>
+          <li><strong>Age Group:</strong> All ages</li>
+          <li><strong>Fee:</strong> ₹2,499</li>
+        </ul>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+    </div>
+
+    <div class="course-item">
+      <button class="course-title"><img src="acrylic.jpeg" alt="Acrylic & Oil Masterclass">🧑‍🎨 Acrylic & Oil Master class</button>
+      <div class="course-details">
+        <p>Hands-on painting with glazing, color blending, and palette knife methods.</p>
+        <ul>
+          <li><strong>Duration:</strong> 8 weeks</li>
+          <li><strong>Age Group:</strong> 18+ years</li>
+          <li><strong>Fee:</strong> ₹3,999</li>
+        </ul>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+    </div>
+    
+    <div class="course-item">
+      <button class="course-title"><img src="art retreats.jpeg" alt="Weekend Art Retreats">🎨 Weekend Art Retreats</button>
+      <div class="course-details">
+        <p>Half- or full-day art experiences blending nature, meditation, and painting.</p>
+        <ul>
+          <li><strong>Duration:</strong> 2 days</li>
+          <li><strong>Age Group:</strong> 18+ years</li>
+          <li><strong>Fee:</strong> ₹5,999</li>
+        </ul>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+    </div>
+
+    <div class="course-item">
+      <button class="course-title"><img src="calligraphy.jpeg" alt="Calligraphy & Lettering">✒️ Calligraphy & Lettering</button>
+      <div class="course-details">
+        <p>Brush pen and modern calligraphy styles to create beautiful quotes and cards.</p>
+        <ul>
+          <li><strong>Duration:</strong> 3 weeks</li>
+          <li><strong>Age Group:</strong> 14+ years</li>
+          <li><strong>Fee:</strong> ₹1,799</li>
+        </ul>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+    </div>
+
+    <div class="course-item">
+      <button class="course-title"><img src="mandala.jpeg" alt="Mandala & Mindful Art">🧘‍♀️ Mandala & Mindful Art</button>
+      <div class="course-details">
+        <p>Unwind with meditative art patterns like mandalas and Zentangle-inspired forms.</p>
+        <ul>
+          <li><strong>Duration:</strong> 4 weeks</li>
+          <li><strong>Age Group:</strong> 12+ years</li>
+          <li><strong>Fee:</strong> ₹2,199</li>
+        </ul>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <h2>Contact Us</h2>
+    <p><strong>Email: </strong><a href="mailto:connect@canvasandsoul.com">connect@canvasandsoul.com</a></p>
+    <p><strong>Phone: </strong><a href="tel:+919205150154"> +91-9205150154</a></p>
+    <p><strong>Address: </strong> 123 Creative Street, Art City, India</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Canvas & Soul Academy & Gallery. All rights reserved.</p>
+  </footer>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
